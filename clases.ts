@@ -15,6 +15,8 @@ class Persona{
 
         console.log("Hola  mi nombre es "+this.nombre +
         ' '+this.apellido);
+        console.log(`Hola min nombre es  ${this.nombre} y mi apellido es 
+         ${this.apellido}`);
     }
 }
 var estudiante: Persona = new Persona("Larry","Caichihua",26);
